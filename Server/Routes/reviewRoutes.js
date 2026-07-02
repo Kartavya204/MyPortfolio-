@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const validateReview = require("../middleware/validateReview");
+const validateReview = require("../Middleware/validateReview");
 
 const {
 
@@ -16,7 +16,7 @@ deleteReview,
 
 likeReview
 
-} = require("../controllers/reviewController");
+} = require("../Controllers/reviewController");
 
 
 
