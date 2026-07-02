@@ -7,7 +7,7 @@ const morgan = require("morgan");
 const compression = require("compression");
 
 const connectDB = require("./config/db");
-const reviewRoutes = require("./routes/reviewRoutes");
+const reviewRoutes = require("./Routes/reviewRoutes");
 const app = express();
 
 connectDB();
