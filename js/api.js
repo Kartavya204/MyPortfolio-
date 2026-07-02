@@ -1,3 +1,3 @@
-const API_URL = "http://localhost:5000/api/reviews";
+const API_URL = "https://kartavyakamone.onrender.com/api/reviews";
 
 export default API_URL;
